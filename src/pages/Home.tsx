@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'; 
 import Hero from '../Components/Hero';
+import Hero2 from '../Components/Hero2';
+import FeaturedWorks from '../Components/FeaturedWorks';
 function Home() {
   return (
     <div id="home" className="relative bg-black">
@@ -38,6 +40,8 @@ function Home() {
         </div>
       </div>
       <Hero/>
+      <Hero2/>
+      <FeaturedWorks/>
     </div>
   );
 }

@@ -9,9 +9,10 @@ const Hero = () => {
         <div className="xl:mx-[140px]">
           <p className="text-[#F6BE00] mb-3 text-sm uppercase">About Us</p>
 
-          <h1 className="font-extrabold text-2xl md:text-2xl leading-tight uppercase">
-            DIGITAL{" "}
-            <span className="text-[#F6BE00]">WORK SHOULD</span>
+          <h1 className="font-extrabold text-2xl md:text-2xl leading-tight uppercase text-white">
+          
+            <span className="text-[#F6BE00]">DIGITAL{" "}</span>
+            WORK SHOULD
             <br />
             CREATE{" "}
             <span className="text-[#00C2FF]">MOMENTUM</span> — 
