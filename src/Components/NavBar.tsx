@@ -16,7 +16,7 @@ export default function NavBar() {
  const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="w-full fixed top-0 left-0 z-50 bg-black text-white shadow-md">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img src="/vite.svg" alt="Logo" className="h-10 w-10" />

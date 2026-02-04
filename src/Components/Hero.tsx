@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
         {/* LEFT SIDE TEXT */}
-        <div className="xl:mx-[80px]">
+        <div className="xl:mx-[140px]">
           <p className="text-[#F6BE00] mb-3 text-sm uppercase">About Us</p>
 
           <h1 className="font-extrabold text-2xl md:text-2xl leading-tight uppercase">
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
 
         {/* RIGHT SIDE PARAGRAPH */}
-        <div className="text-gray-300 space-y-5 text-[16px] leading-relaxed">
+        <div className="text-gray-300 space-y-5 text-[16px] leading-relaxed xl:mx-[-40px]">
           <p>
             Too many businesses invest in branding or technology only to outgrow it months 
             <br/>later.
