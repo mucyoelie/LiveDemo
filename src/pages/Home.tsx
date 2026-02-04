@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom';
 import Hero from '../Components/Hero';
 import Hero2 from '../Components/Hero2';
 import FeaturedWorks from '../Components/FeaturedWorks';
+import PhilosophySection from '../Components/PhilosophySection';
+import DirectionSection from '../Components/DirectionSection';
+import ContactSection from '../Components/ContactSection';
 function Home() {
   return (
     <div id="home" className="relative bg-black">
@@ -42,6 +45,9 @@ function Home() {
       <Hero/>
       <Hero2/>
       <FeaturedWorks/>
+      <PhilosophySection/>
+      <DirectionSection/>
+      <ContactSection/>
     </div>
   );
 }

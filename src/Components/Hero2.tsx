@@ -49,7 +49,8 @@ const Hero2 = () => {
         {/* CARD 2 */}
         <div className="rounded-2xl border border-green-700 p-6 bg-[#002B15] hover:-translate-y-2 transition-all">
           <div className="text-4xl mb-3">🖥️</div>
-          <h2 className="text-green-400 font-bold uppercase text-sm">DIGITAL PLATFORMS & UX</h2>
+          <h2 className="text-green-400 font-bold uppercase text-sm">DIGITAL PLATFORMS 
+            <br/>& UX</h2>
           <p className="text-gray-300 text-sm mt-3">
             Websites & platforms designed to communicate clearly and convert with purpose.
           </p>
@@ -61,7 +62,8 @@ const Hero2 = () => {
         {/* CARD 3 */}
         <div className="rounded-2xl border border-blue-700 p-6 bg-[#001C2A] hover:-translate-y-2 transition-all">
           <div className="text-4xl mb-3">🔗</div>
-          <h2 className="text-blue-400 font-bold uppercase text-sm">OPERATIONAL SYSTEMS & ERP</h2>
+          <h2 className="text-blue-400 font-bold uppercase text-sm">OPERATIONAL SYSTEMS 
+            <br/>& ERP</h2>
           <p className="text-gray-300 text-sm mt-3">
             Streamlined workflows & real-time data visibility that support smarter decisions.
           </p>
@@ -73,7 +75,8 @@ const Hero2 = () => {
         {/* CARD 4 */}
         <div className="rounded-2xl border border-yellow-700 p-6 bg-[#231A00] hover:-translate-y-2 transition-all h-70">
           <div className="text-4xl mb-3">📱</div>
-          <h2 className="text-yellow-400 font-bold uppercase text-sm">CROSS-PLATFORM MOBILE SOLUTIONS</h2>
+          <h2 className="text-yellow-400 font-bold uppercase text-sm">CROSS-PLATFORM 
+            <br/>MOBILE SOLUTIONS</h2>
           <p className="text-gray-300 text-sm mt-3">
             Consistent, reliable experiences across devices — wherever the user happens.
           </p>

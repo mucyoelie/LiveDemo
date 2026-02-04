@@ -33,7 +33,7 @@ const FeaturedWorks = () => {
             PROJECTS THAT <span className="text-[#F6BE00]">DELIVERED</span>
           </h1>
         </div>
-        <p className="text-gray-300 text-sm mt-8">
+        <p className="text-gray-300 xl:w-[120%] mt-8">
           No matter the industry or challenge, our focus stays the same:
           <br/>
            build work that performs,scales, and leaves a lasting impression — long after 
