@@ -19,7 +19,7 @@ export default function NavBar() {
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="/vite.svg" alt="Logo" className="h-10 w-10" />
+          <img src="/iconlogo.png" alt="Logo" className="h-10 w-32" />
         </div>
         {/* Desktop Nav */}
         <ul className="hidden md:flex space-x-10 text-white font-medium gap-12">

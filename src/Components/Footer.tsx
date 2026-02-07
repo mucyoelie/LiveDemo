@@ -10,10 +10,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-1">
               <div className="flex items-center">
-                <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center">
-                  <span className="text-[#0a1f1f] font-bold text-lg">G</span>
-                </div>
-                <span className="text-white font-semibold text-xl ml-1">live</span>
+                <img src="/iconlogo.png" alt="Logo" className="h-10 w-32" />
               </div>
             </div>
             <div className="text-sm text-gray-400">
