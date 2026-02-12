@@ -60,7 +60,7 @@ const ApproachSection: React.FC = () => {
           <img
             src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=2070&q=80"
             alt="Team Collaboration"
-            className="rounded-2xl shadow-lg w-full w-[25rem] object-cover h-[30rem]"
+            className="rounded-2xl shadow-lg w-full xl:w-[70%] object-cover h-[30rem]"
           />
         </div>
       </div>
