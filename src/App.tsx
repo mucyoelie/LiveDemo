@@ -3,6 +3,8 @@ import NavBar from "./Components/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Footer from "./Components/Footer";
+import CoffeeShowcase from "./Components/works/CoffeeShowcase";
+import ShowcaseSection from "./Components/works/ShowcaseSection";
 function App() {
   return (
     <Router>
@@ -14,6 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+           <Route path="/coffee-works" element={<CoffeeShowcase />} />
+           <Route path="/portfolio" element={<ShowcaseSection />} />
         </Routes>
         <Footer/>
       </div>

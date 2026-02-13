@@ -80,7 +80,7 @@ const DecisionsSection: FC = () => {
         </div>
 
         {/* ==== BOTTOM TEXT ==== */}
-        <div className="mt-16 text-gray-300 space-y-6">
+        <div className="mt-28 text-gray-300 space-y-6">
           <p>
             If you’re looking for a partner who values clarity, structure, and 
             long-term thinking — we’d be glad to have a conversation.
