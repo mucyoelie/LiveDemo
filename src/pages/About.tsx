@@ -1,6 +1,7 @@
 import React from 'react';
 import ApproachSection from '../Components/ApproachSection';
 import OurApproach from '../Components/OurApproach';
+import DecisionsSection from '../Components/DecisionsSection';
 
 const About: React.FC = () => {
   return (
@@ -62,6 +63,7 @@ const About: React.FC = () => {
       {/* FIX: Put Approach section outside */}
       <ApproachSection />
       <OurApproach/>
+      <DecisionsSection/>
     </>
   );
 };

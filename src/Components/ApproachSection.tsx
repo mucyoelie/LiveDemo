@@ -58,7 +58,7 @@ const ApproachSection: React.FC = () => {
         {/* RIGHT SIDE — IMAGE */}
         <div className="flex justify-center md:justify-end xl:relative right-32">
           <img
-            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=2070&q=80"
+            src="/consultancy.jpg"
             alt="Team Collaboration"
             className="rounded-2xl shadow-lg w-full xl:w-[70%] object-cover h-[30rem]"
           />
