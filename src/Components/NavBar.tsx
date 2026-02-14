@@ -13,7 +13,8 @@ const navItems: NavItem[] = [
   {
     name: "Work",
     dropdown: [
-      { name: "coffee works", link: "/coffee-works" },
+      { name: "Worked Categories", link: "/work-categories" },
+       { name: "coffee works", link: "/coffee-works" },
       { name: "Portfolio", link: "/portfolio" },
     ],
   },
@@ -30,7 +31,7 @@ export default function NavBar() {
         
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="/iconlogo.png" alt="Logo" className="h-10 w-32" />
+          <img src="/GoLive_LoGo_Light.svg" alt="Logo" className="h-10 w-32" />
         </div>
 
         {/* Desktop Navigation */}

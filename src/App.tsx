@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Footer from "./Components/Footer";
 import CoffeeShowcase from "./Components/works/CoffeeShowcase";
 import ShowcaseSection from "./Components/works/ShowcaseSection";
+import Showcase from "./Components/works/Showcase";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/work-categories" element={<Showcase />} />
            <Route path="/coffee-works" element={<CoffeeShowcase />} />
            <Route path="/portfolio" element={<ShowcaseSection />} />
         </Routes>

@@ -2,7 +2,7 @@ import React from "react";
 
 const ShowcaseSection: React.FC = () => {
   const images = [
-    "/image1.jpg", 
+    "/kblcoffee7.jpg", 
     "/image1.jpg", 
     "/image1.jpg", 
     "/image1.jpg", 
@@ -10,11 +10,11 @@ const ShowcaseSection: React.FC = () => {
     "/image1.jpg",
     "/image1.jpg", 
     "/image1.jpg", 
-    "/image1.jpg", 
-    "/image1.jpg", 
-    "/image1.jpg", 
-    "/image1.jpg", 
-    "/image1.jpg", 
+    "/kblcoffee1.jpg", 
+    "/kblcoffee2.jpg", 
+    "/kblcoffee3.jpg", 
+    "/kblcoffee5.jpg", 
+    "/kblcoffee6.jpg", 
   ];
 
   return (

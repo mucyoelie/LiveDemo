@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-1">
               <div className="flex items-center">
-                <img src="/iconlogo.png" alt="Logo" className="h-10 w-32" />
+                <img src="/GoLive_LoGo_Light.svg" alt="Logo" className="h-10 w-32" />
               </div>
             </div>
             <div className="text-sm text-gray-400">

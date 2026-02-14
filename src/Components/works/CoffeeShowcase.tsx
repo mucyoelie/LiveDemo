@@ -3,19 +3,19 @@ import React from "react";
 
 const CoffeeShowcase: React.FC = () => {
   const images = {
-    banner: "/image1.jpg",
-    wide: "/image1.jpg",
-    grid2_top: ["/image1.jpg", "/image1.jpg"],
-    grid2_bottom: ["/image1.jpg", "/image1.jpg"],
+    banner: "/laptop1.jpg",
+    wide: "/laptop1.jpg",
+    grid2_top: ["/laptop3.jpg", "/laptop4.jpg"],
+    grid2_bottom: ["/laptop5.jpg", "/laptop2.jpg"],
   };
 
   return (
-    <section className="w-full bg-black text-white py-16 px-6 md:px-16 space-y-12">
+    <section className="w-full bg-black text-white py-20 px-6 md:px-16 space-y-12 mt-12">
 
       {/* ── Top Banner with label overlay ── */}
       <div className="max-w-6xl mx-auto relative">
         {/* Label tag */}
-        <div className="absolute top-3 left-3 z-10 bg-black/60 backdrop-blur-sm border border-white/10 rounded px-3 py-1">
+        <div className="absolute top-3 left-3 z-10 bg-black/60 backdrop-blur-sm border border-white/10 rounded px-3 py-1 ">
           <span className="text-white/60 uppercase tracking-widest text-[9px] font-medium">
             Academic Illiade
           </span>
@@ -24,7 +24,7 @@ const CoffeeShowcase: React.FC = () => {
         <img
           src={images.banner}
           alt="banner"
-          className="w-full rounded-2xl object-cover h-56 md:h-64 shadow-2xl"
+          className="w-full rounded-2xl object-cover h-56 md:h-64 shadow-2xl "
         />
 
         {/* Bottom text overlay */}
