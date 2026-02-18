@@ -18,7 +18,8 @@ const navItems: NavItem[] = [
       { name: "Portfolio", link: "/portfolio" },
     ],
   },
-  { name: "Contact", link: "/contact" },
+  { name: "Get A Demo", link: "/get-a-demo" },
+    { name: "Contact", link: "/contact" },
 ];
 
 export default function NavBar() {
@@ -35,7 +36,7 @@ export default function NavBar() {
         </div>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex space-x-10 text-white font-medium gap-12 relative">
+        <ul className="hidden md:flex space-x-10 text-white font-medium gap-6 relative">
           {navItems.map((item) =>
             item.dropdown ? (
               <li

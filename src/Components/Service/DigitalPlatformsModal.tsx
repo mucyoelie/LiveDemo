@@ -44,10 +44,10 @@ const DigitalPlatformsModal: React.FC<DigitalPlatformsModalProps> = ({
         </button>
 
         {/* Icon */}
-        <div className="mb-3 text-3xl sm:text-4xl md:text-5xl text-green-400 text-center">🖥️</div>
+        <div className="mb-3 text-3xl sm:text-4xl md:text-5xl text-green-400 text-left">🖥️</div>
 
         {/* Title */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-400 text-center">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-400 text-left">
           DIGITAL PLATFORMS <br /> & UX
         </h2>
 

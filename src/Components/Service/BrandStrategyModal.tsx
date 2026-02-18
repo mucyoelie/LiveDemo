@@ -48,11 +48,12 @@ const BrandStrategyModal: React.FC<BrandStrategyModalProps> = ({
         </button>
 
         {/* Title Icon */}
-        <div className="mb-3 text-3xl sm:text-4xl md:text-5xl text-center">🏅</div>
+        <div className="mb-3 text-3xl sm:text-4xl md:text-5xl text-left">🏅</div>
 
         {/* Title */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-red-400 text-center">
-          BRAND STRATEGY & IDENTITY
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-red-400 text-left">
+          BRAND STRATEGY 
+          <br/>& IDENTITY
         </h2>
 
         <div className="w-16 sm:w-20 md:w-24 h-[2px] bg-gray-600 my-3 mx-auto"></div>

@@ -45,10 +45,10 @@ const CrossPlatformModal: React.FC<CrossPlatformModalProps> = ({
         </button>
 
         {/* Icon */}
-        <div className="text-3xl sm:text-4xl text-yellow-400 mb-2">📱</div>
+        <div className="text-3xl sm:text-4xl text-yellow-400 mb-2 text-left">📱</div>
 
         {/* Title */}
-        <h2 className="text-2xl sm:text-3xl font-bold text-yellow-400 leading-tight">
+        <h2 className="text-2xl sm:text-3xl font-bold text-yellow-400 leading-tight text-left">
           CROSS-PLATFORM & <br className="hidden sm:block" /> MOBILE SOLUTIONS
         </h2>
 
