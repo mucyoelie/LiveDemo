@@ -25,9 +25,11 @@ const navItems: NavItem[] = [
   {
     name: "Get A Demo",
     dropdown: [
-      { name: "Start Free Demo", link: "/start-demo" },
+      //{ name: "Start Free Demo", link: "/start-demo" },
       { name: "Send a Brief", link: "/send-brief" },
       { name: "Demo Pricing", link: "/demo-pricing" },
+       { name: "layout", link: "/about-layout" },
+       { name: "submission", link: "/submission" },
     ],
   },
 
